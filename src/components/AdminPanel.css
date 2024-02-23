@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+  }
+  
+  /* Admin Panel Layout */
+  .admin-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header */
+  .admin-panel h2 {
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  /* Date Filter */
+  .admin-panel input[type="date"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  /* Booking Items */
+  .booking-item {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-left: 5px solid #5cb85c; /* Change the color based on status */
+  }
+  
+  .booking-item p {
+    margin: 5px 0;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background-color: #d9534f;
+  }
+  
+  .logout-button:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .admin-panel {
+      padding: 10px;
+    }
+  }
+  

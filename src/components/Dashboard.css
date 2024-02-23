@@ -1,0 +1,82 @@
+/* Dashboard.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 150px;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  input {
+    background-color: #fafafa;
+  }
+  
+  button {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }
+  
+  .booking-list {
+    margin-top: 20px;
+  }
+  
+  .booking-item {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  .booking-item h3 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .booking-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  h4 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
